@@ -48,8 +48,18 @@ function Books() {
   });
 
   // Function to add a book to the cart
-  const addToCart = (book) => {
+  // const putReq=async (book)=>{
+  //   if(book.copies>0 && book.availability)
+  //   {
+  //     const kopies=book.copies-1;
+  //     await fetch(`https://library-api-v1.onrender.com/books/buy/saturogojo/${book._id}`,
+  //     {method:'PUT',body:JSON.stringify({"copies":33})})
+  //     console.log(`https://library-api-v1.onrender.com/books/buy/saturogojo/${book._id}`)
+  //   }    
+  // }
+  const addToCart = async (book) => {
     // Retrieve the existing cart items from local storage
+    // await putReq(book)
     const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
 
     // Add the new book to the cart items
