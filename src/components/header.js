@@ -25,7 +25,7 @@ function Header(){
     return(
         <div className="navigation">
             <div className="heading">
-                <h2>LibraryHUB</h2>
+                <h2>LibraryCAFE</h2>
             </div>
             <ul>
                 <li className="items">

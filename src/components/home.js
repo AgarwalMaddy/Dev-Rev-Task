@@ -11,7 +11,7 @@ function Home() {
       <div className="book-background">
         <div className="left-container">
           <div className="description">
-            <h2>Welcome to the online library: LibraryHUB</h2>
+            <h2>LibraryCAFE : Bringing the aroma of coffee and the world of knowledge together in one place</h2>
             <h5>Explore a vast collection of books and resources.</h5>
           </div>
           <div className="search-box">
