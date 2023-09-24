@@ -7,7 +7,7 @@ import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCnwr2eIUQrnjXze2s7qWnPaPcxbjPrFW8",
-  authDomain: "library-devrev.firebaseapp.com",
+  authDomain: "https://dev-rev-task-lilac.vercel.app/",
   projectId: "library-devrev",
   storageBucket: "vitbhopalhostel.appspot.com",
   messagingSenderId: "540466625308",
