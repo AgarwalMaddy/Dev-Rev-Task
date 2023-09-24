@@ -301,3 +301,66 @@ body {
 
 
   
+  /* BookList.css (or any other CSS file you prefer) */
+
+/* ... your existing styles ... */
+
+/* BookList.css (or any other CSS file you prefer) */
+
+/* Inherit styles from home.css */
+/* BookList.css (or any other CSS file you prefer) */
+
+/* Inherit styles from home.css */
+/* BookList.css (or any other CSS file you prefer) */
+
+/* Inherit styles from home.css */
+.book-card {
+  display: flex;
+  flex-direction: column; /* Change the flex-direction to column */
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Add additional styles specific to the card */
+.book-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px; /* Add spacing between title and other information */
+}
+
+.info {
+  color: #000000;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.book-card button {
+  background: #0056b3;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: auto; /* Align the button to the bottom of the card */
+}
+
+/* Add styles for content elements within the card */
+.book-card .title {
+  font-size: 24px; /* Modify title font size */
+  margin-bottom: 15px; /* Add spacing between title and other content */
+}
+
+/* Ensure each piece of information is displayed on a new line */
+.book-card .info {
+  font-size: 16px; /* Modify info font size */
+  white-space: nowrap; /* Prevent info from wrapping to a new line */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+}
