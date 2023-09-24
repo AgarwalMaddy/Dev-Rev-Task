@@ -123,13 +123,13 @@ function Books() {
       className="sort-button"
       onClick={() => handleSort('title')}
     >
-      Sort Z-A
+      Sort A-Z
     </button>
     <button
       className="sort-button"
       onClick={() => handleSort('title')}
     >
-      Sort A-Z
+      Sort Z-A
     </button>
     <button
       className="sort-button"
