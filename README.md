@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Library Management Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Library Management](Thumbnail.png)
 
-## Available Scripts
+Welcome to our Library Management Project repository, a collaborative effort by three dedicated team members. This project is designed to help you manage and rent books from a digital library, making your reading experience more convenient and accessible. Read on to learn more about the project and how to run it on your local device.
 
-In the project directory, you can run:
+## Collaborators
 
-### `npm start`
+Meet the team members who contributed to this project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. [Madhur Agarwal](https://github.com/AgarwalMaddy)
+   - Role: Project Lead
+   - Contact: madhur1812agarwal@gmail.com
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. [Priyanshu Dhapodkar](https://github.com/priyanshu070702)
+   - Role: Frontend Developer
+   - Contact: priyanshu.dhapodkar2020@vitbhopal.ac.in
 
-### `npm test`
+3. [Ayush Bhatt](https://github.com/alternateAyush)
+   - Role: Backend Developer
+   - Contact: ayush.bhatt2020@vitbhopal.ac.in
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About the Project
 
-### `npm run build`
+Our Library Management System is a web-based application that allows you to view and rent out different books from our library. The books are fetched from a custom-built API, created by one of our team members. Here are some key features of the project:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Browse and search for books from our digital library.
+- View detailed information about each book, including the author, publication date, and a brief description.
+- Rent out books and keep track of your reading history.
+- Secure user authentication and registration powered by Firebase.
+- [Live Link](https://dev-rev-task-lilac.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this project on your local device, follow these steps:
 
-### `npm run eject`
+1. **Clone the repository:**
+[Clone the repository](https://github.com/AgarwalMaddy/Dev-Rev-Task.git)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install Dependencies:**
+- Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
+- Navigate to the project root directory and run the following commands:
+  ```
+  cd frontend
+  npm install
+  cd ../backend
+  npm install
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Configure Firebase:**
+- Set up a Firebase project and obtain your Firebase configuration.
+- Create a `.env` file in the `backend` directory and add your Firebase configuration as follows:
+  ```env
+  FIREBASE_API_KEY=your-api-key
+  FIREBASE_AUTH_DOMAIN=your-auth-domain
+  FIREBASE_PROJECT_ID=your-project-id
+  FIREBASE_STORAGE_BUCKET=your-storage-bucket
+  FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+  FIREBASE_APP_ID=your-app-id
+  ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Start the Application:**
+- In the project root directory, start both the frontend and backend servers:
+  ```
+  cd frontend
+  npm start
+  ```
+  ```
+  cd backend
+  npm start
+  ```
 
-## Learn More
+5. The application should now be running locally. Open your web browser and access [http://localhost:3000](http://localhost:3000) to explore the Library Management System.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is built using the following technologies:
 
-### Code Splitting
+- **Frontend**: ReactJS
+- **Backend**: Node.js
+- **Authentication**: Firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to explore, contribute, and enhance this Library Management Project. If you have any questions or encounter issues, please don't hesitate to reach out to any of the collaborators.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy reading!
