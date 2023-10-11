@@ -9,7 +9,7 @@ Welcome to our Library Management Project repository, a collaborative effort by 
 Meet the team members who contributed to this project:
 
 1. [Madhur Agarwal](https://github.com/AgarwalMaddy)
-   - Role: Project Lead
+   - Role: Frontend Developer 
    - Contact: madhur1812agarwal@gmail.com
 
 2. [Priyanshu Dhapodkar](https://github.com/priyanshu070702)
@@ -17,7 +17,7 @@ Meet the team members who contributed to this project:
    - Contact: priyanshu.dhapodkar2020@vitbhopal.ac.in
 
 3. [Ayush Bhatt](https://github.com/alternateAyush)
-   - Role: Backend Developer
+   - Role: API & Backend Developer
    - Contact: ayush.bhatt2020@vitbhopal.ac.in
 
 ## About the Project
