@@ -164,6 +164,7 @@ function Books() {
             <p className="info"><strong>Genre:</strong> {book.genre[0]}</p>
             <p className="info"><strong>Price:</strong> Rs. {(book.price)}</p>
             <p className="info"><strong>Number of Copies Available:</strong> {book.copies}</p>
+            <p className="info"><strong>Synopsis</strong> {book.synopsis}</p>
             <p className="info"><strong>Availability:</strong> {(book.availability) ? "Available" : "Out of Stock"}</p>
             <button className="button" onClick={() => addToCart(book)}>Add to cart</button>
           </article>
